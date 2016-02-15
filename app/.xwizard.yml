@@ -1,8 +1,4 @@
-
-version: 1.0
-#template name
-name: hello-world
-#Fields to be requested to the user for this template
+description: Application Generator
 fields:
   - id: name
     type: input
