@@ -2,26 +2,35 @@ description: Application Generator
 fields:
   - id: name
     type: input
-    default: "Otto"
-    label: "Enter name"
+    default: Otto
+    label: Enter name
 
   - id: lastName
     type: input
-    default: "Giron"
-    label: "Enter last name"
+    default: Giron
+    label: Enter last name
 
-  - id: projectsLeads
+  - id: projectManagers 
     type: map
-    label: "Enter project leads"
+    label: Enter project leads
     fields:
       - id: infrastructure
         type: input
-        label: "Please enter the infrastructure lead"
+        label: Infrastructure
+
+      - id: platform
+        type: input
+        label: Platform
+
+      - id: tooling
+        type: input
+        label: Infrastructure
+        default: Javier Alvarez
 
   - id: projects
     type: list
-    label: "Enter the list of projects"
+    label: Enter the list of projects
     size: 5
     field:
         type: input
-        label: "Enter project value e.g. Infrastructure"
+        label: Project Name
