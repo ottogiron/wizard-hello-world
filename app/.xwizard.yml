@@ -23,5 +23,5 @@ fields:
     label: "Enter the list of projects"
     size: 5
     field:
-      - type: input
+        type: input
         label: "Enter project value e.g. Infrastructure"
