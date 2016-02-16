@@ -10,7 +10,7 @@ fields:
     default: Giron
     label: Enter last name
 
-  - id: projectManagers 
+  - id: projectManagers
     type: map
     label: Enter project leads
     fields:
@@ -30,7 +30,7 @@ fields:
   - id: projects
     type: list
     label: Enter the list of projects
-    size: 5
+    size: 3
     field:
         type: input
         label: Project Name
