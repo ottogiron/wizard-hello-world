@@ -31,17 +31,17 @@ fields:
     type: list
     label: Enter projects list
     size: 3
-    valueField:
+    value:
       type: input
       label: Project Name
 
   - id: envVars
     type: dmap
     label: Enter environment variables
-    keyField:
+    key:
       type: input
       label: Value
-    valueField :
+    value :
       type: input
       label: Variable Name
 
@@ -49,6 +49,6 @@ fields:
   - id: teams
     type: dlist
     label: Enter team list
-    valueField:
+    value:
       type: input
       label: Team name
