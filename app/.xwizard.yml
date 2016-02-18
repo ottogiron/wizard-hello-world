@@ -40,11 +40,10 @@ fields:
     label: Enter environment variables
     key:
       type: input
-      label: Value
+      label: Variable name
     value :
       type: input
-      label: Variable Name
-
+      label: Value
 
   - id: teams
     type: dlist
