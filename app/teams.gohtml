@@ -1,7 +1,7 @@
 <h1>Teams</h1>
 
 <ul>
-  {range $element := .Params.teams}}
+  {{range $element := .Params.teams}}
     <li>{{ $element }}</li>
   {{ end }}
 </ul>
