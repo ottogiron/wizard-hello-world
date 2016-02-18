@@ -16,15 +16,15 @@ fields:
     fields:
       - id: infrastructure
         type: input
-        label: Infrastructure
+        label: Enter Infrastructure manager name
 
       - id: platform
         type: input
-        label: Platform
+        label: Enter Platform manager name
 
       - id: tooling
         type: input
-        label: Infrastructure
+        label: Enter Inf Tooling manager name
         default: Javier Alvarez
 
   - id: projects
@@ -38,17 +38,17 @@ fields:
   - id: envVars
     type: dmap
     label: Enter environment variables
-    valueField :
-      type: input
-      label: Variable Name
     keyField:
       type: input
       label: Value
+    valueField :
+      type: input
+      label: Variable Name
+
 
   - id: teams
     type: dlist
-    label: Enter teams list
-    size: 3
+    label: Enter team list
     valueField:
       type: input
       label: Team name
