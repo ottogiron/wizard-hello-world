@@ -9,6 +9,4 @@ Tooling:       {{.Params.projectManagers.tooling}}
 
 Managers using  a range
 
-{{range $key, $element := .Params.projectManagers}}
-    {{ $key }}:  {{ $element }}
-{{ end }}
+{{range $key, $element := .Params.projectManagers}}{{ $key }}:  {{ $element }}{{ end }}
