@@ -12,7 +12,7 @@ fields:
 
   - id: projectManagers
     type: map
-    label: Enter project leads
+    label: Enter project managers
     fields:
       - id: infrastructure
         type: input
@@ -29,8 +29,26 @@ fields:
 
   - id: projects
     type: list
-    label: Enter the list of projects
+    label: Enter projects list
     size: 3
-    field:
-        type: input
-        label: Project Name
+    valueField:
+      type: input
+      label: Project Name
+
+  - id: envVars
+    type: dmap
+    label: Enter environment variables
+    valueField :
+      type: input
+      label: Variable Name
+    keyField:
+      type: input
+      label: Value
+
+  - id: teams
+    type: dlist
+    label: Enter teams list
+    size: 3
+    valueField:
+      type: input
+      label: Team name
